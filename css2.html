@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            h1, p {color: blue;} <!-- Edit h1 and p at the same time-->
+            span {font-weight: bold;
+                color: green;}
+
+            div {border: 2px solid green;
+                position: absolute;
+                width: 300px;
+                top: 400px;
+                left: 35px;}
+
+            <!-- Classes -->
+                .redtext {color: yellow;} <!-- Not working!-->
+                .greentext {color: green;}
+
+            <!-- IDs -->
+            #arthur {border: 2px solid red;
+                    position: absolute;
+                    top: 275px;
+                    left: 25px;}
+            #finn {border: 2px solid red;
+                   position: absolute;
+                   top: 250px;
+                   left: 25px;}
+
+            <!-- Child Selectors-->
+                h2 > a {color: green;
+                        font-size: 300px;
+                        } <!-- Styles all links in h2-->
+
+            <!-- Pseudo Elements -->
+            p: first-letter {font-weight:bold;
+                            font-size: 20px;
+                            color: green;} <!--Styles the first letter in all paragraphs -->
+        </style>
+
+    </head>
+    <body>
+        guess who's back
+        <h1>Shady's back</h1>
+        <p>tell a friend</p>
+        <p>Mountains are beautiful. <span>Tall, strong and magnificent.</span> The summer breeze is blissful.</p>
+        <p class="greentext">I want this paragraph to be green</p>
+        <p class="redtext">Let me be RED!!</p>
+        <div id="arthur">Arthur likes to stay outdoors</div>
+        <div id="finn">Finn loves sushi</div>
+        <div>my life has been a lie</div>
+        <a href="http://google.com">first</a>
+        <h2><a href="http://google.com">second</a></h2>
+        <h3><a href="http://google.com">third</a></h3>
+    </body>
+
+</html>

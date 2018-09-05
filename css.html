@@ -1,0 +1,126 @@
+<!-- Intro to CSS: Cascading Style Sheet -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        body {
+            background-color: green;
+            color: white; <!-- changes text color in body -->
+            background-image: url("crystal_ball.jpg"); <!-- add image NOT WORKING-->
+            background-repeat: no-repeat <!-- Dont repeat images NOT WORKING-->;
+            background-repeat: repeat-y <!-- repeats picture along y-axis column-wise -->
+            background-position: 10px 60px <!-- 10 pixels to right, 60 pixels down, you can also use percentages -->
+        }
+
+        p { color:blue;     <!-- text color NOT WORKING -->
+            text-indent: 25px; <!-- indentation -->
+            background-color: orange;
+
+            <!-- Margin (outside border) -->
+            margin: 10px;
+        }
+        h1 {
+            color:orange;
+            text-align: center; <!-- text alignment -->
+        }
+        h2 {
+            color: black;
+            background-color: yellow;
+
+           <!-- Padding (inside border)-->
+            padding: 20px; <!-- Padding all over - of 20px -->
+
+            <!-- BORDER -->
+            border-color: red; <!-- NOT WORKING-->
+            border-width: 3px;
+            border-style: dashed;
+
+            font-family: arial;
+        }
+        h3{color: #cc99ff;
+            background-color: yellow;
+            padding-top: 30px;
+            padding-bottom: 20px;
+
+            border-top-style: dotted;
+            border-top-width: 4px;
+
+        } <!-- this is an RGB value for colors-->
+
+        div.a {line-height: 1.6;} <!-- spaces b/w lines. this part didn't work!-->
+        ul {font-weight: bold;} <!--Not working -->
+        ol {font-style: italic;}
+
+        h4 {
+        <!-- Height and Width -->
+            background-color: red;
+            color: white;
+            width: 350px;
+            height: 25px;
+            border: 3px solid black;
+         }
+
+        <!-- Styling Links -->
+         a: link{
+                color: red;
+                text-decoration: none; <!-- underline or none-->
+            }
+         a: visited{
+                color: green;
+            }
+         a: hover{
+                background-color: grey;
+                color: white;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+         a: active{
+                background-color: orange;
+            }
+
+         table {border: 3px solid blue;}
+         tr {background-color: orange;}
+         td {border: 2px dash red;} <!-- NOT WORKING -->
+
+         ul {list-style-type: katakana;} <!-- NOT WORKING -->
+         ul {list-style-image: url (horseIcon.png);} <!-- NOT WORKING -->
+         ul {border: 1px solid red;
+            list-style-type: none;
+            padding: 0;
+            }
+    </style>
+</head>
+<body>
+<h1>This is sparta</h1>
+<h2>Check this!</h2>
+<h3>Using cool colors is an art</h3>
+<h4>I care about you so much!!</h4>
+<p>I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am colouredI am coloured I am coloured I am coloured I am coloured I am coloured I am colouredI am coloured
+    I am colouredI am coloured I am coloured I am coloured I am colouredI am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured
+    I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured I am coloured</p>
+<div class="a">Its coding business. <br>
+    Its coding business. <br>
+    Its coding business. <br>
+    Its coding business. <br>
+</div>
+
+<ul>
+    <li>unordered list</li>
+</ul>
+<ol><li>ordered list</li></ol>
+
+<a href="https://imgflip.com/i/mntsg">Sparta!!!</a> click it.
+
+<table>
+    <tr> <td>Sunshine</td> <td>Shelby</td> <td>Summer</td>    </tr>
+    <tr> <td>Sunshine</td> <td>Shelby</td> <td>Summer</td>    </tr>
+</table>
+
+<ul>
+    <li>apple</li>
+    <li>banana</li>
+    <li>grape</li>
+</ul>
+
+</body>
+</html>

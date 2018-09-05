@@ -1,0 +1,125 @@
+<!doctype html>
+
+<!--
+So basically this script makes you a simple webpage
+What we learned from NewBoston
+-simple html tag -headerTag&bodyTag -paragraphTag -title -Links -EmailLink
+-LinkingPageToItself -LinktoDifferentHtmlFile -Tooltip label -image -imageResize
+-->
+
+<html>
+
+<head>
+    <title>Lol Webpage</title>
+</head>
+
+<body>
+<h1>Azhar the GREAT!</h1> <!-- header tag h1 -->
+<p>A little bit about this man</p>
+<hr /> <!-- section breaker -->
+
+<h2>Introduction</h2> <!-- header 2, smaller font than h1 -->
+
+<p>Ahmed Azhar is a man with drive. Young little chap who just fell in love with horses. <br />
+Man o man horses are such a beauty.</p> <!-- paragraph tag in use-->
+<p>If I told you that when a horse falls in love with you, it'll die by your side?
+Now, you'll have to train your horse.<br /> <!-- Line breaks in use -->
+You'll need it to be <strong>obedient</strong>. <br /> <!-- <strong> tag bolds the font -->
+<em>Listen listen listen </em></p> <!-- the <em> tag italicizes words. Its short for emphasis -->
+
+Here's a link to horses having a good run. <br />
+<a href="https://www.youtube.com/watch?v=DGOz8TmCDCE">Let the horses run!</a> <br />
+<!-- the <a> tag means anchor, the href is a 'hyper reference' to the url you want it linked to-->
+
+<!-- here in in the href is linked it to my other webpage i.e second.html -->
+You can also check out the second  <a href="second.html">webpage</a> I made. <br/>
+
+<!--Email Link and if you hover over the name you'll
+see a label aka Tool tip; comes from the 'title' keyword -->
+If you really like <a href="mailto:ahmedazhar10@gmail.com" title="Whatta Guy">Ahmed Azhar</a>, you can email him.
+
+<!-- Lets add some images to this site using <img src="" /> tag
+ you could also resize image using height="" -->
+<a href="https://www.nationalgeographic.com/animals/mammals/h/horse/" title="Click the horse"><img src="horseIcon.png" height="150" /></a>
+
+<!--Lets create a table -->
+<table> <!--The following is a 2 row, 3 column table -->
+    <tr>
+        <td>Horse</td> <!-- column tag. index(0,0) -->
+        <td>Monkey</td> <!-- index(0,1)-->
+        <td>Parrot</td> <!-- index(0,2)-->
+    </tr> <!-- row -->
+    <tr>
+        <td>Apple</td> <!-- index(1,0)-->
+        <td>Banana</td> <!-- index(1,1) -->
+        <td>Carrot</td> <!-- index(1,2) -->
+    </tr>
+</table>
+
+<!-- Lets create a table but this time with a border -->
+<table border="1"> <!--Border was added here -->
+    <tr> <td>Blue Sky</td> <td>Red Sky</td> </tr>
+    <tr> <td>Blue Clouds</td> <td>Red Clouds</td> </tr>
+</table>
+
+<!-- Table with header-->
+<table border="1">
+    <tr> <th>Name</th> <th>City</th> <th>Country</th> </tr>
+    <tr> <td>Roden</td> <td>Karachi</td> <td>Pakistan</td> </tr>
+    <tr> <td>Hectar</td> <td>Rome</td> <td>Italy</td> </tr>
+</table>
+
+<!-- Table with header and sub-headers -->
+<table border="1">
+    <tr> <th colspan="2"> <h3>Fifa World Cup'18</h3> </th> </tr> <!--Column Span -->
+    <tr> <th>Team</th> <th>Status</th>  </tr>
+    <tr> <td>Argentina</td> <td>Qualified</td> </tr>
+    <tr> <td>Germany</td> <td>Went Home</td> </tr>
+</table>
+
+<!-- Table width -->
+<table border="1" width="50%"> <!-- width = 500 pixels or width = 100% meaning 100% screen space -->
+    <tr> <th>Name</th> <th>Use</th> </tr>
+    <tr> <td>Phone</td> <td>Call</td> </tr>
+    <tr> <td>Cup</td> <td>Drink</td> </tr>
+</table>
+
+<!-- Cell padding: space in the cells -->
+<table border="1" cellpadding="10">
+    <tr> <th>Name</th> <th>Use</th> </tr>
+    <tr> <td>Phone</td> <td>Call</td> </tr>
+    <tr> <td>Cup</td> <td>Drink</td> </tr>
+</table>
+
+<!-- Cell spacing: space b/w the cells -->
+<table border="1" cellspacing="10">
+    <tr> <th>Name</th> <th>Use</th> </tr>
+    <tr> <td>Phone</td> <td>Call</td> </tr>
+    <tr> <td>Cup</td> <td>Drink</td> </tr>
+</table>
+
+<br />
+<br />
+
+Unordered List
+<!-- List -->
+<ul> <!-- Unordered List: A list that has bullet points -->
+    <li>Football</li> <!-- List Item-->
+    <li>Basketball</li>
+    <li>Soccer</li>
+    <li>Hockey</li>
+</ul>
+
+<br />
+<br />
+
+Ordered List
+<ol> <!-- Ordered List: A list that is numbered-->
+    <li>Argentina</li>
+    <li>Spain</li>
+    <li>Brazil</li>
+</ol>
+
+</body>
+
+</html>
